@@ -1,0 +1,35 @@
+.layout_nav {
+    background-color: #891b55 !important;
+    background: #891b55 !important;
+    border-radius: 0 20px 16px 0 !important;
+}
+
+.logo {
+    font-size: 2.75rem;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1.1rem;
+}
+
+.display_flex {
+    display: flex;
+    align-items: center;
+}
+
+.headerLeft_title {
+    margin-left: 2.5rem;
+    color: #8B2058;
+    font-size: 1.4rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.rightHeader_circle {
+    height: 30px;
+    width: 30px;
+    background: #F7F7FA;
+    margin-left: 5px;
+    border-radius: 12px;
+    text-align: center;
+}

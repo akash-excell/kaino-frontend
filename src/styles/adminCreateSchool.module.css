@@ -1,0 +1,40 @@
+.formContainer {
+    min-height: 600px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 1.8rem 1.2rem;
+}
+
+.infoText {
+    color: #3f3f3f;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1.6rem;
+}
+
+.formGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1.5rem;
+    row-gap: 2rem;
+}
+
+.fileUpload {
+    background: #444444;
+    color: #fff;
+    padding: 0.6rem 1.5rem;
+    border-radius: 10px;
+}
+
+@media (max-width:894px){
+    .formGrid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:630px){
+    .formGrid{
+        grid-template-columns: 1fr;
+    }
+}

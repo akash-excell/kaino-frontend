@@ -1,0 +1,157 @@
+.card {
+    min-height: 500px;
+    margin-top: 2rem;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.school_Card {
+    background-color: #75DDEE;
+    min-height: 350px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.schoolInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.schoolInfo img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 3rem;
+    color: #071A2B;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 2rem;
+    color: #071A2B;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+.counterContainer {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.totalP {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.counterP {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.bottom_section {
+    display: flex;
+    gap: 2rem;
+}
+
+.secondCard {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    column-gap: 2rem;
+    min-height: 300px;
+}
+
+.secondCardLeft,
+.secondCardRight {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1rem;
+    border: 1px solid rgb(187, 183, 183);
+}
+
+.iconContainer {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.p_title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.p_description {
+    color: #867d7d;
+    font-weight: 500;
+}
+
+.right_content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 1rem;
+}
+
+.right_content_title {
+    color: #050505;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.right_content_des {
+    color: #8c8080;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.school_title {
+    color: #161616;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.right_bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    margin-top: 2rem;
+    text-align: center;
+    color: #b7afaf;
+    font-weight: 500;
+    padding: 1rem;
+    background: #fff;
+}
+
+@media (max-width:886px) {
+    .schoolInfo {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .right_bottom {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:760px) {
+    .secondCard {
+        grid-template-columns: 1fr;
+        column-gap: 0;
+        row-gap: 1rem;
+    }
+}

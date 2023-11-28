@@ -1,0 +1,14 @@
+.classes_card_container {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.classes_card {
+    min-height: 160px;
+    background: #9E4EE0;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+}

@@ -1,0 +1,20 @@
+.MuiOutlinedInput-notchedOutline {
+    top: 3px !important;
+}
+
+.helpText {
+    color: #b8acac;
+    padding: 10px 0px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media (max-width:320px) {
+    .requestButton {
+        font-size: 10px;
+    }
+}
+
+.loginButton:hover {
+    background-color: #199ee0;
+}
