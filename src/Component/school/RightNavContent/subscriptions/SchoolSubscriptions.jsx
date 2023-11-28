@@ -102,7 +102,7 @@ const SchoolSubscriptions = () => {
                         </Box>
                     </Box>
 
-                    <Box onClick={()=>router.push('/dashboard/school/school-payment')} sx={{ minHeight: '280px', background: '#EA8858', borderRadius: '10px', padding: '1.5rem', color: '#fff', cursor: 'pointer' }}>
+                    <Box sx={{ minHeight: '280px', background: '#EA8858', borderRadius: '10px', padding: '1.5rem', color: '#fff', cursor: 'pointer' }}>
                         <Box sx={{ marginTop: '1rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                             <BsCashCoin size={'4rem'} color='#fff' />
                             <Box sx={{ minHeight: '120px' }}>
